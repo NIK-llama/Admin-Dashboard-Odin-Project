@@ -14,7 +14,7 @@
     <div class="grid-container">
         <aside id="sidebar">
             <div class="dash-logo">
-                <img src="../images/view-dashboard.svg" alt="Dashboard">
+                <img src="icons/view-dashboard.svg" alt="Dashboard">
                 <h1>Dashboard</h1>
             </div>
             <nav class="menu">
@@ -36,29 +36,47 @@
         </aside>
 
         <header id="head">
-            <div class="search-bar">
-                <input type="text" placeholder="Search...">
+            <div class="header-top">
+                <div class="search-bar">
+                    <img src="icons/magnify.svg" alt="search">
+                    <input type="text" placeholder="">
+                </div>
+                <div class="profile-top">
+                    <img src="images/1-08.jpg" alt="profile">
+                    <span>Morgan Oakley</span>
+                </div>
             </div>
-            <div class="profile">
-                <img src="" alt="">
-                <span>Morgan Oakley</span>
-            </div>
-            <div class="head-buttons">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+            <div class="header-bottom">
+                <div class="bottom-profile">
+                    <img src="images/1-08.jpg" alt="profile">
+                    <div>
+                        <span>Hi there,</span>
+                        <div class="name">Morgan Oakley (@morgan)</div>
+                    </div>
+                </div>
+                <div class="head-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
             </div>
         </header>
 
         <main id="content">
             <section class="projects">
-                <h2>Your Projects</h2>
+                <h3 style="margin: 0.5rem;">Your Projects</h3>
                 <div class="cards">
                     <div class="card">
                         <h1>Super Cool Projects</h1>
                         <p>Sed tempus ut lacus ut scelerisque.
                             Suspendisse sollicitudin nibh erat, id
-                            facilisis felis accumsan nec.</p>
+                            facilisis felis accumsan nec.
+                        </p>
+                        <div class="card-icons">
+                            <img src="icons/star-plus-outline.svg" alt="Star">
+                            <img src="icons/eye-plus-outline.svg" alt="View">
+                            <img src="icons/source-fork.svg" alt="Fork">
+                        </div>
                     </div>
                     <div class="card">
                         <h1>Less Cool Project</h1>
@@ -66,51 +84,126 @@
                             consectetur. Quisque sed dolor tincidunt,
                             consectetur sapien et, facilisis dolor. Duis sem
                             purus, dignissim ut sapien in, varius
-                            pellentesque lacus.</p>
+                            pellentesque lacus.
+                        </p>
+                        <div class="card-icons">
+                            <img src="icons/star-plus-outline.svg" alt="Star">
+                            <img src="icons/eye-plus-outline.svg" alt="View">
+                            <img src="icons/source-fork.svg" alt="Fork">
+                        </div>
                     </div>
                     <div class="card">
                         <h1>Impossible App</h1>
                         <p>In hac habitasse platea dictumst. Vivamus
                             dictum rutrum arcu, a placerat velit sagittis
-                            id.</p>
+                            id.
+                        </p>
+                        <div class="card-icons">
+                            <img src="icons/star-plus-outline.svg" alt="Star">
+                            <img src="icons/eye-plus-outline.svg" alt="View">
+                            <img src="icons/source-fork.svg" alt="Fork">
+                        </div>
                     </div>
                     <div class="card">
                         <h1>Easy Peasy App</h1>
                         <p>Etiam cursus eros ac efficitur fringilla.
                             Vestibulum dignissim urna eget accumsan
                             aliquam. Curabitur dignissim nisi in tortor
-                            commodo, ac bibendum magna tincidunt.</p>
+                            commodo, ac bibendum magna tincidunt.
+                        </p>
+                        <div class="card-icons">
+                            <img src="icons/star-plus-outline.svg" alt="Star">
+                            <img src="icons/eye-plus-outline.svg" alt="View">
+                            <img src="icons/source-fork.svg" alt="Fork">
+                        </div>
                     </div>
                     <div class="card">
                         <h1>Ad Blocker</h1>
                         <p>Quisque eget rutrum nisl. Nam augue
                             justo, cursus vitae metus vel, pharetra
                             hendrerit felis. Aliquam sed malesuada
-                            eros.</p>
+                            eros.
+                        </p>
+                        <div class="card-icons">
+                            <img src="icons/star-plus-outline.svg" alt="Star">
+                            <img src="icons/eye-plus-outline.svg" alt="View">
+                            <img src="icons/source-fork.svg" alt="Fork">
+                        </div>
                     </div>
                     <div class="card">
                         <h1>Money Marker</h1>
                         <p>Praesent convallis, libero quis congue
                             elementum, nunc ante faucibus sapien, ac
                             scelerisque tortor purus sit amet ex.
-                            Pellentesque mollis nec sem vel aliquam.</p>
+                            Pellentesque mollis nec sem vel aliquam.
+                        </p>
+                        <div class="card-icons">
+                            <img src="icons/star-plus-outline.svg" alt="Star">
+                            <img src="icons/eye-plus-outline.svg" alt="View">
+                            <img src="icons/source-fork.svg" alt="Fork">
+                        </div>
                     </div>
                 </div>
             </section>
-            <aside class="announcements">
-                <h2>Announcements</h2>
-                <div class="announcement-card">Site Maintenance...</div>
-                <div class="announcement-card">Community Share Day...</div>
-                <div class="announcement-card">Updated Privacy Policy...</div>
-            </aside>
 
-            <aside class="trending">
-                <h2>Trending</h2>
-                <div class="trend-card">@tegan - World Peace Builder</div>
-                <div class="trend-card">@morgan - Super Cool Project</div>
-                <div class="trend-card">@kendall - Life Changing App</div>
-                <div class="trend-card">@alex - No Traffic Maker</div>
-            </aside>
+            <div class="sidebar-right">
+                <aside class="announcements">
+                    <h3 style="margin: 0.5rem;">Announcements</h3>
+                    <div class="announcement-card">
+                        <h1>Site Maintenance</h1>
+                        <p>Vestibulum condimentum tellus lacus,
+                            in accumsan elit maximus ac. Donec
+                            hendrerit sodales congue...</p>
+                    </div>
+                    <div class="announcement-card">
+                        <h1>Community Share Day</h1>
+                        <p>Nam vel lectus tincidunt, rutrum nulla
+                            eu, ornare libero. Aliquam dictum
+                            accumsan porttitor...</p>
+                    </div>
+                    <div class="announcement-card">
+                        <h1>Updated Privacy Policy</h1>
+                        <p>Phasellus efficitur nisi eget elit
+                            consectetur, eget condimentum ante
+                            auctor. Cras fringilla sagittis sem in
+                            mattis...</p>
+                    </div>
+                </aside>
+
+                <aside class="trending">
+                    <h3 style="margin: 0.5rem;"">Trending</h3>
+                    <div class="trending-content">
+                        <div class="trend-card">
+                            <img src="images/mutt.jpg" alt="profile-photo">
+                            <div>
+                                <span class="username">@tegan</span>
+                                <span class="project">World Peace Builder</span>
+                            </div>
+                        </div>
+                        <div class="trend-card">
+                            <img src="images/1-08.jpg" alt="profile-photo">
+                            <div>
+                                <span class="username">@morgan</span>
+                                <span class="project">Super Cool Project</span>
+                            </div>
+                        </div>
+                        <div class="trend-card">
+                            <img src="images/spider.jpg" alt="profile-photo">
+                            <div>
+                                <span class="username">@kendall</span>
+                                <span class="project">Life Changing App</span>
+                            </div>
+                        </div>
+                        <div class="trend-card">
+                            <img src="images/penguin.jpg" alt="profile-photo">
+                            <div>
+                                <span class="username">@alex</span>
+                                <span class="project">No Traffic Maker</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
         </main>
     </div>
 </body>
